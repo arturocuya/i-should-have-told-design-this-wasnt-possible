@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "stopOnEntry": false,
+            "enableDebuggerAutoRecovery": false,
+            "stopDebuggerOnAppExit": false,
+            "rootDir": "${workspaceFolder}/src",
+            "files": [
+                "source/**/*",
+                "components/**/*",
+                "images/**/*",
+                "fonts/**/*",
+                "manifest"
+            ],
+            "name": "Launch I should have told design this wasnt possible (dev)",
+            "injectRdbOnDeviceComponent": true
+        },
+        {
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "stopOnEntry": false,
+            "enableDebuggerAutoRecovery": false,
+            "stopDebuggerOnAppExit": false,
+            "rootDir": "${workspaceFolder}/src",
+            "files": [
+                "source/**/*",
+                "components/**/*",
+                "images/**/*",
+                "fonts/**/*",
+                "manifest"
+            ],
+            "name": "Launch I should have told design this wasnt possible (prod)"
+        }
+    ]
+}
