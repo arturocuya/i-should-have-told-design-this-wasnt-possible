@@ -1,0 +1,4 @@
+<component name="MyRowList" extends="RowList">
+    <script type="text/brightscript" uri="MyRowList.brs" />
+    
+</component>

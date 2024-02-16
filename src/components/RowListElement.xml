@@ -1,0 +1,12 @@
+<component name="RowListElement" extends="Group">
+    <script type="text/brightscript" uri="RowListElement.brs" />
+    <interface>
+        <field id="itemContent" type="node" onChange="setItemContent" />
+        <field id="itemHasFocus" type="boolean" onChange="onFocusChange" />
+    </interface>
+
+    <children>
+        <Label id="up" text="Up"/>
+        <Label id="down" text="Down" translation="[0, 40]"/>
+    </children>
+</component>

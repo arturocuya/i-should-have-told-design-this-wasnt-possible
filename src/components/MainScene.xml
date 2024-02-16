@@ -3,5 +3,18 @@
     <script type="text/brightscript" uri="MainScene.brs" />
     <children>
         <Label id="welcome" />
+
+        <MyRowList 
+            id="rowlist"
+            translation="[200, 500]" 
+            itemComponentName="RowListElement" 
+            numRows = "4" 
+            itemSize = "[1500, 300]" 
+            rowItemSize = "[[400, 255]]" 
+            rowItemSpacing = "[[20, 0]]" 
+            showRowLabel = "[false]" 
+            skipFocusAnimations = "true"
+            vertFocusAnimationStyle = "floatingFocus" 
+            rowFocusAnimationStyle = "floatingFocus" />
     </children>
 </component>
